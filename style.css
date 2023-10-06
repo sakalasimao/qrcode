@@ -10,6 +10,8 @@
 :root{
 --Light-gray: hsl(212, 45%, 89%);
 --White: hsl(0, 0%, 100%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
 }
 
 .container{
@@ -48,6 +50,7 @@
 
 .container .card .text p{
     font-size: 15px;
+    color: var(--Grayish-blue);
     
 }
 
@@ -55,6 +58,7 @@
     font-size: 21px;
     margin-bottom: 10px;
     font-weight: bold;
+    color: var(--Dark-blue);
 }
 
 .container .card .text{
